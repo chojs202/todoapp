@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+プロジェクト経験: TypeScript を用いた To-Do リスト React アプリの開発
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 プロジェクト概要
 
-## Available Scripts
+    React のさまざまなライブラリを活用し、
+    ドラッグ＆ドロップ機能を備えた To-Do リスト を開発しました。
+    このプロジェクトを通じて、状態管理、入力検証、UI インタラクション
+    、データの永続化 などの主要な機能を学び、実装しました。
 
-In the project directory, you can run:
+使用技術・ライブラリ
 
-### `npm start`
+    TypeScript: 静的型付けを活用し、コードの安全性と保守性を向上
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    React & Recoil: 状態管理のために Recoil の Atom を使用し、グローバルな状態を管理
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    React Hook Form: 入力フォームの作成を簡単にし、検証ロジックを最適化
 
-### `npm test`
+    React-Beautiful-dnd: ドラッグ＆ドロップで直感的な UI/UX を提供
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Local Storage: ブラウザを閉じてもデータが保持されるように実装
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔹 主な実装機能
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    1️⃣ To-Do リストの管理
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    React Hook Form を活用し、入力フォームを効率的に構築＆検証
 
-### `npm run eject`
+    入力されたデータを Recoil の Atom でグローバルに管理
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    2️⃣ ドラッグ＆ドロップによる直感的な UI を実現
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    React-Beautiful-dnd を使用し、タスクの移動を簡単に実装
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ドラッグの開始・移動・停止イベントを適切に処理し、スムーズな UX を提供
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    3️⃣ Local Storage によるデータの永続化
 
-## Learn More
+    To-Do データを Local Storage に保存 し、ブラウザをリロードまたは終了してもデータが消えないように設定
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Recoil の状態が変更されるたびに、Local Storage に自動で更新される仕組みを実装
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+🚀 成果と学んだこと
+
+    ✔ React の状態管理の重要性: Recoil を活用し、効率的に状態を管理する方法を習得
+
+    ✔ ユーザーエクスペリエンス (UX) の向上: ドラッグ＆ドロップ機能を導入し、直感的な操作を実現
+
+    ✔ 入力検証とフォーム処理の最適化: React Hook Form を活用し、複雑な入力検証を簡潔に記述
+
+    ✔ データの永続化管理: Local Storage を利用し、データの保存と維持の方法を学習
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
